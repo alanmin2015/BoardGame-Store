@@ -1,0 +1,36 @@
+extends layout 
+
+block main-content 
+  h1.page-title Explore Game Inventory
+   
+    <table id="explore">
+     <tr id="tableTitle">
+      <th >Name</th>
+      <th >Player</th>
+      <th >Playing Time</th>
+      <th>Difficulty</th>
+      <th>Price</th>
+     </tr>
+     each lin in a
+      <tr>
+       <td>#{lin.name}</td>
+       <td>#{lin.Player}</td>
+       <td>#{lin.PlayingTime}</td>
+       <td>#{lin.Weight}</td>
+       <td>#{lin.price}</td>
+     </tr>
+      <td><br></td>
+     <tr>
+     </tr>
+      <td><br></td>
+     <tr>
+     </tr>
+      <td><br></td>
+     <tr>
+     </tr>
+      <td><br></td>
+     <tr>
+     </tr>
+      <td><br></td>
+     <tr> 
+     </table>

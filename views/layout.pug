@@ -1,0 +1,24 @@
+block variables 
+doctype html 
+html 
+  head
+    meta(charset="utf-8")
+    title #{title} | Board Game Store-Next Turn
+    block scripts 
+      link(rel="stylesheet", type="text/css", href="/styles.css")
+  body
+    header#header 
+      .header-content   
+        h2#site-name Board Game Store-Next Turn 
+      <nav id=main-navigation>
+        dev 
+          each link in menu 
+           div#navigation-item 
+            a(href=link.path) #{link.name} 
+      </nav>
+  <div class="full">    
+    main#main 
+      block main-content 
+    footer#footer 
+      p &copy; Copyright NextTurnBoardGame, 2023.
+  </div>    

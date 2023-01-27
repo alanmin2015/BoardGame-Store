@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/elegant-2');
+
+body {
+  font-family:'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#a {
+color:red;
+}
+html{
+  margin-left: -10px;
+}
+
+#site-name{
+  padding-left: 10px;
+  margin-bottom: 0px;
+  font-size: 40px;
+  font-family: 'ELEGANT', sans-serif;
+}
+.full{
+  padding-left: 10px;
+  margin-top: -21px;
+  background: url(../img/background.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+}
+
+header{
+  width: 101%;
+  margin-top: -20px;
+  padding-top: 5px;
+  background-color: goldenrod;
+
+}
+/* Picture reference from: https://twitter.com/stellarisgame/status/1153244558563643392?lang=ga*/
+
+.Game1, .Game2, .Game3, .Game4{
+  display: inline-block;
+  margin: 10px;
+  width: 20%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+  width: 100%;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  border-width: thick;
+  border-radius: 5px;
+}
+
+.game{
+  margin-top: 50px;
+  text-align: center;
+}
+
+button{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 10px;
+  border-style: solid;
+  border-color: darkgoldenrod;
+  border-radius: 5px;
+}
+
+.Page{
+  margin-top: 20px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#intro{
+font-size: 20px;
+}
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+#navigation-item{
+  display: inline-block;
+  margin-left: 20px;
+  width: 20%;
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main-navigation {
+  padding: 5px;
+  width:70%;
+  border-top: dashed;
+  border-color: burlywood;
+}
+
+#explore {
+  padding: 5px;
+  margin-top: 5px;
+  width: 80%;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: darkgoldenrod;
+  border-spacing: 0;
+  text-align: left;
+  border-collapse:separate;
+}
+
+th{
+  height:70px;
+}
+
+#about{
+  padding-left: 20px;
+  font-size: 25px;
+}
+
+#tableTitle{
+  background-color: rgba(235, 214, 122, 0.6);
+  border-bottom: solid;
+  border-color: aliceblue;
+}

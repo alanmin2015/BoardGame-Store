@@ -1,0 +1,46 @@
+extends layout 
+
+
+block main-content 
+ 
+  h1.page-title Hello! Welcome to the <span id="a"> Next Turn </span> online board game store!
+  p#intro We have most of the popular board games for rent or sell!
+
+  
+   <div class="game"> 
+   <div class="Game1">
+    <img src="/img/Ark.png" alt="Ark">
+    <p id="Ark"> Ark Nova </p>
+    <button type="button" onclick="Purchase1()">Purchase</button>
+    <button type="button" onclick="Rent1()">Rent</button>
+   </div> 
+
+   <div class="Game2">
+    <img src="/img/Brass.png" alt="Brass">
+    <p id="Brass"> Brass: Birmingham </p>
+     <button type="button" onclick="Purchase()">Purchase</button>
+   <button type="button" onclick="Rent()">Rent</button>
+   </div> 
+  
+   <div class="Game3">
+    <img src="/img/Gloom.png" alt="Gloom">
+    <p id="Gloom"> Gloomhaven </p>
+    <button type="button" onclick="Purchase()">Purchase</button>
+    <button type="button" onclick="Rent()">Rent</button>
+   </div>   
+
+   <div class="Game4">
+    <img src="/img/Pandemic.png" alt="Pandemic">
+    <p id="Pandemic"> Pandemic Legacy </p>
+    <button type="button" onclick="Purchase()">Purchase</button>
+    <button type="button" onclick="Rent()">Rent</button>
+   </div>   
+   </div>
+
+   <div class="Page">
+    <button type="button" onclick="Last()">Last Page</button>
+    //<button type="submit"><a href="/cart"> Order </a></button>
+    <button type="button" onclick="Next()">Next Page</button>
+   </div>
+  // Picture reference from: https://boardgamegeek.com/browse/boardgame */
+ 
